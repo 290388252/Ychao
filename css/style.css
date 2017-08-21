@@ -62,8 +62,21 @@ input[type="submit"] {
 }
 
 /*轮播图*/
+div#body_wrapper{
+    margin-top:15px;
+}
+div#body_wrapper article{
+    width: 628px;
+    display: inline-block;
+}
+div#body_wrapper aside{
+    width: 352px;
+    background-color:#3598db;
+    height: 500px;
+    float: right;
+}
 section#lunbotu{
-    /*box-shadow: 1px 4px 15px #A39F9F;*/
+    box-shadow: 1px 4px 15px #A39F9F;
 }
 div.wrap a{
     color:#fff;
@@ -123,7 +136,43 @@ p#slide-nav a {
 p#slide-nav a.on {
     background-position : 0 -24px;
 }
-/*../images/silde-nav.png old图片*/
+ 
 p#slide-nav a {
     background-image : url(../images/silde-nav.png);
+}
+/*集团新闻*/
+div.title_bg{
+    background: url("../images/title_bg.jpg");
+    height: 44px;
+    line-height: 35px;
+}
+section#xinwen{
+    margin-top:15px;
+}
+
+div.title_bg a{
+    font-size: 15px;
+    line-height: 20px;
+    margin-left: 5px;
+    text-decoration: none;
+    color: #444444;
+}
+/*新闻部分*/
+section#xinwen{
+    margin-top:15px;
+}
+section#xinwen li{
+    display: inline-block;
+    width: 100%;
+    vertical-align: bottom;
+
+}
+section#xinwen li a{
+    display: inline-block;
+    vertical-align: top;
+    text-decoration: none;
+}
+section#xinwen li img{
+    width: 315px;
+    height: 165px;
 }
