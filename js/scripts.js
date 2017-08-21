@@ -146,7 +146,6 @@ SI.Files={
  htmlClass:'SI-FILES-STYLIZED',
  fileClass:'file',
  wrapClass:'cabinet',
- wrapClass :'lite',
  fini:false,
  able:false,
  init:function(){
