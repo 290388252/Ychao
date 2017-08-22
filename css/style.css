@@ -177,8 +177,9 @@ section#xinwen li a{
 section#xinwen li a h3{
     border-bottom: solid 1px white;
     margin-bottom: 5px;
-    margin-left: 5px;
+    margin-left: 21px;
     margin-right: 3px;
+
 }
 section#xinwen li a p{
     text-indent: 30px;
@@ -186,6 +187,7 @@ section#xinwen li a p{
 section#xinwen li a h3, section#xinwen li a p{
     padding: 5px 2px 0px 4px;
     font-size: 14px;
+    overflow: hidden;
 }
 section#xinwen li a div.newstitle{
     height: 165px;
@@ -199,4 +201,17 @@ section#xinwen li img{
     -webkit-box-shadow: 2px 4px 4px #A39F9F;
     -moz-box-shadow: 2px 4px 4px #A39F9F;
     box-shadow: 2px 4px 4px #A39F9F;
+}
+.sanjiaoxing{
+    width: 25px;
+    height: 25px;
+    background-color: #3598db;
+    position: absolute;
+    margin-top: 15px;
+    margin-left: -13px;
+    -webkit-transform: rotate(45deg);
+    -moz-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    -o-transform: rotate(45deg);
+    transform: rotate(45deg);
 }
