@@ -279,22 +279,30 @@ section#huodong_c li{
     display: inline-block;
 
 }
+section#bowen_a a{
+    display: inline-block;
+}
 section#bowen_a li{
     list-style: none;
     display: inline-block;
     margin-top: 5px;
     padding-right: 1px;
+    width: 172px;
 }
 section#bowen_b li{
     list-style: none;
     counter-increment: listnum;
-    margin-top: 5px;
+    margin-top: 10px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
     -webkit-transition: text-shadow 0.5s linear;
     -moz-transition: text-shadow 0.5s linear;
     -ms-transition: text-shadow 0.5s linear;
     -o-transition: text-shadow 0.5s linear;
     vertical-align: top;
 }
+
 section#bowen_b li:hover{
     text-shadow: 1px 4px 5px #444444;
 }
@@ -313,6 +321,35 @@ section#bowen_b a{
 }
 section#zhaopin{
     margin-top: 15px;
+}
+section#zhaopin li:before{
+    content: counter(listnum);
+    background-color: #3598db;
+    padding: 2px 5px;
+    color: white;
+    margin-right: 5px;
+
+}
+section#zhaopin li a{
+    text-decoration: none;
+    color: #444444;
+}
+section#zhaopin li{
+    list-style: none;
+    counter-increment: listnum;
+    margin-top: 10px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    -webkit-transition: text-shadow 0.5s linear;
+    -moz-transition: text-shadow 0.5s linear;
+    -ms-transition: text-shadow 0.5s linear;
+    -o-transition: text-shadow 0.5s linear;
+    vertical-align: top;
+
+}
+section#zhaopin li:hover{
+    text-shadow: 1px 4px 5px #444444;
 }
 section#lianxi{
     margin-top: 15px;
