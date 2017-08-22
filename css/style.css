@@ -71,8 +71,7 @@ div#body_wrapper article{
 }
 div#body_wrapper aside{
     width: 352px;
-    background-color:#3598db;
-    height: 500px;
+    height: 1700px;
     float: right;
 }
 section#lunbotu{
@@ -214,4 +213,110 @@ section#xinwen li img{
     -ms-transform: rotate(45deg);
     -o-transform: rotate(45deg);
     transform: rotate(45deg);
+}
+/*活动*/
+section#huodong{
+    margin-top:10px;
+}
+section#huodong_a li{
+    list-style: none;
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 5px;
+    margin-right: 7px;
+
+}
+section#huodong_b{
+    width: 75%;
+    display: inline-block;
+    vertical-align: top;
+    margin-right: 1px;
+}
+section#huodong_c{
+    width: 24%;
+    display: inline-block;
+    vertical-align: top;
+}
+section#huodong_b li:before{
+    content: counter(listnum);
+    background-color: #444444;
+    padding: 2px 5px;
+    color: white;
+    margin-right: 5px;
+}
+section#huodong_b li:hover{
+    text-shadow: 1px 4px 5px #444444;
+}
+section#huodong_b li{
+    list-style: none;
+    display: inline-block;
+    width: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+    /*点点点省略*/
+    text-overflow: ellipsis;
+    counter-increment: listnum;
+    margin-top: 15px;
+    -webkit-transition: text-shadow 0.5s linear;
+    -moz-transition: text-shadow 0.5s linear;
+    -ms-transition: text-shadow 0.5s linear;
+    -o-transition: text-shadow 0.5s linear;
+    vertical-align: top;
+}
+section#huodong_b li:first-child:before,section#huodong_b li:nth-child(2):before,section#huodong_b li:nth-child(3):before{
+    background-color: #3598db;
+}
+section#huodong_b li:last-child:before{
+    padding: 2px 2px;
+    font-size: 14px;
+}
+section#huodong_b li a{
+    text-decoration: none;
+    color: #444444;
+}
+section#huodong_c li{
+    list-style: none;
+    display: inline-block;
+
+}
+section#bowen_a li{
+    list-style: none;
+    display: inline-block;
+    margin-top: 5px;
+    padding-right: 1px;
+}
+section#bowen_b li{
+    list-style: none;
+    counter-increment: listnum;
+    margin-top: 5px;
+    -webkit-transition: text-shadow 0.5s linear;
+    -moz-transition: text-shadow 0.5s linear;
+    -ms-transition: text-shadow 0.5s linear;
+    -o-transition: text-shadow 0.5s linear;
+    vertical-align: top;
+}
+section#bowen_b li:hover{
+    text-shadow: 1px 4px 5px #444444;
+}
+section#bowen_b li:before{
+    content: counter(listnum);
+    background-color: #3598db;
+    padding: 2px 5px;
+    color: white;
+    margin-right: 5px;
+
+}
+section#bowen_b a{
+    text-decoration: none;
+    color: #444444;
+
+}
+section#zhaopin{
+    margin-top: 15px;
+}
+section#lianxi{
+    margin-top: 15px;
+}
+section#zigongsi{
+    margin-top: 15px;
 }
