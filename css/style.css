@@ -162,17 +162,41 @@ section#xinwen{
     margin-top:15px;
 }
 section#xinwen li{
+
     display: inline-block;
     width: 100%;
     vertical-align: bottom;
-
+    margin-top: 10px;
 }
 section#xinwen li a{
     display: inline-block;
     vertical-align: top;
     text-decoration: none;
+    color: white;
+}
+section#xinwen li a h3{
+    border-bottom: solid 1px white;
+    margin-bottom: 5px;
+    margin-left: 5px;
+    margin-right: 3px;
+}
+section#xinwen li a p{
+    text-indent: 30px;
+}
+section#xinwen li a h3, section#xinwen li a p{
+    padding: 5px 2px 0px 4px;
+    font-size: 14px;
+}
+section#xinwen li a div.newstitle{
+    height: 165px;
+    -webkit-box-shadow: 2px 4px 4px #A39F9F;
+    -moz-box-shadow: 2px 4px 4px #A39F9F;
+    box-shadow: 2px 4px 4px #A39F9F;
 }
 section#xinwen li img{
     width: 315px;
     height: 165px;
+    -webkit-box-shadow: 2px 4px 4px #A39F9F;
+    -moz-box-shadow: 2px 4px 4px #A39F9F;
+    box-shadow: 2px 4px 4px #A39F9F;
 }
