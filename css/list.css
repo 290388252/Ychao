@@ -7,10 +7,18 @@ div#body_wrapper article header h3{
 }
 #body_wrapper li{
     display: inline-block;
-
-}
-#body_wrapper li img{
-    width: 205px;
+    vertical-align: top;
+    width: 202px;
     height:140px;
-    padding-right: 2px;
+    margin-bottom: 27px;
+}
+/*.piclist li{*/
+    /*margin-bottom: 10px;*/
+    /*margin-right: 10px;*/
+    /*width: 202px;*/
+    /*height:140px;*/
+/*}*/
+#body_wrapper li img{
+    width: 202px;
+    height:140px;
 }
