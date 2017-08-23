@@ -1,0 +1,16 @@
+/*图片列表*/
+div#body_wrapper article header h3{
+    color: #444444;
+    font-size: 15px;
+    border-bottom: solid 1px #d6d6d6;
+    margin-bottom: 10px;
+}
+#body_wrapper li{
+    display: inline-block;
+
+}
+#body_wrapper li img{
+    width: 205px;
+    height:140px;
+    padding-right: 2px;
+}
