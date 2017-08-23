@@ -1,24 +1,106 @@
 /*图片列表*/
-div#body_wrapper article header h3{
+
+h3{
+/*div#body_wrapper article header h3{*/
     color: #444444;
-    font-size: 15px;
+    font-size: 18px;
     border-bottom: solid 1px #d6d6d6;
     margin-bottom: 10px;
 }
-#body_wrapper li{
+.piclist li{
     display: inline-block;
     vertical-align: top;
     width: 202px;
     height:140px;
     margin-bottom: 27px;
+    margin-right: 5px;
+    text-align: center;
 }
-/*.piclist li{*/
-    /*margin-bottom: 10px;*/
-    /*margin-right: 10px;*/
-    /*width: 202px;*/
-    /*height:140px;*/
-/*}*/
-#body_wrapper li img{
+#body_wrapper a{
+    text-decoration: none;
+    color: #444444;
+}
+.piclist li img{
     width: 202px;
     height:140px;
+}
+@-webkit-keyframes piclist {
+    0%{
+        /*透明度opacity*/
+        -webkit-transform: rotate(0deg) scale(1);
+        opacity: 1;
+    }
+    30%{-webkit-transform: rotate(-30deg) scale(1.5);
+        opacity: 0.5;
+    }
+    60%{-webkit-transform: rotate(0deg) scale(1.5);
+        opacity: 0.5;
+    }
+    90%{-webkit-transform: rotate(30deg) scale(1);
+        opacity: 1;
+    }
+}
+.piclist li:hover img{
+    -webkit-animation: piclist 1s linear;
+}
+.listnav li{
+    list-style: none;
+    display: inline-block;
+    background-color: #3598db;
+    margin-right: 8px;
+    padding: 2px 10px;
+    margin-top: 5px;
+}
+#body_wrapper .listnav a{
+    color: white;
+}
+.listnav li.on,.listnav li:hover{
+    background-color: #444444;
+}
+.toplist{
+    vertical-align: top;
+}
+.toplist li:before{
+    content: counter(listnum);
+    background-color: #444444;
+    padding: 2px 5px;
+    color: white;
+    margin-right: 5px;
+}
+.toplist li{
+    list-style: none;
+    color: #444444;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    counter-increment: listnum;
+    margin-top: 15px;
+}
+.toplist li:first-child:before,.toplist li:nth-child(2):before,.toplist li:nth-child(3):before{
+    background-color: #3598db;
+}
+.toplist li:last-child:before{
+    padding: 2px 1px;
+}
+.articallist li:before{
+    content: counter(listnum);
+    background-color: #444444;
+    padding: 2px 5px;
+    color: white;
+    margin-right: 5px;
+}
+.articallist{
+    margin-top: 10px;
+}
+.articallist li:first-child:before,.articallist li:nth-child(2):before,.articallist li:nth-child(3):before{
+    background-color: #3598db;
+}
+.articallist li{
+    list-style: none;
+    color: #444444;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    counter-increment: listnum;
+    margin-top: 15px;
 }
