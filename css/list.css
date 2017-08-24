@@ -77,17 +77,19 @@ h3{
 div#body_wrapper article{
     width: 628px;
     display: inline-block;
+    vertical-align: top;
 }
 div#body_wrapper aside{
+    display: inline-block;
     width: 352px;
-    /*height: 1700px;*/
-    float: right;
+    /*float: right;*/
+    /*vertical-align: top;*/
 }
 .piclist li{
     display: inline-block;
     vertical-align: top;
     width: 202px;
-    height:120px;
+    /*height:140px;*/
     margin-bottom: 27px;
     margin-right: 5px;
     text-align: center;
@@ -133,9 +135,9 @@ div#body_wrapper aside{
 .listnav li.on,.listnav li:hover{
     background-color: #444444;
 }
-.toplist{
-    vertical-align: top;
-}
+/*.toplist{*/
+    /*vertical-align: top;*/
+/*}*/
 .toplist li:before{
     content: counter(listnum);
     background-color: #444444;
