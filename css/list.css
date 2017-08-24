@@ -1,4 +1,71 @@
 /*图片列表*/
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #f3f3f3;
+    height: 100%;
+    min-height:100%;
+    position: relative;
+}
+.container{
+    width: 1000px;
+    margin: 0 auto;
+    /*width: 100%;*/
+}
+div #logo{
+    display: inline-block;
+    width: 712px;
+}
+div #sousuo{
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 83px;
+}
+input[type="text"] {
+    background-color: #f3f3f3;
+    border: solid 1px gray;
+    height: 36px;
+    font-size: 16px;
+    padding-left: 5px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    line-height: 30px;
+    display: inline-block;
+}
+input[type="submit"] {
+    background-color: #3598db;
+    color: white;
+    width: 80px;
+    height: 38px;
+    border: none;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    display: inline-block;
+}
+#nav{
+    background-color: #3598db;
+    height: 60px;
+    margin-bottom: 20px;
+}
+#nav nav li{
+    display: inline-block;
+    line-height: 60px;
+    padding: 0 10px;
+    border-right: 1px solid #2f89c5;
+    -webkit-transition: background 0.3s linear;
+    -moz-transition: background 0.3s linear;
+    -ms-transition: background 0.3s linear;
+    -o-transition: background 0.3s linear;
+}
+#nav nav li.on , #nav nav li:hover{
+    background-color: #2f89c5;
+}
+#nav nav a{
+    text-decoration: none;
+    color: white;
+}
 
 h3{
 /*div#body_wrapper article header h3{*/
@@ -7,11 +74,20 @@ h3{
     border-bottom: solid 1px #d6d6d6;
     margin-bottom: 10px;
 }
+div#body_wrapper article{
+    width: 628px;
+    display: inline-block;
+}
+div#body_wrapper aside{
+    width: 352px;
+    /*height: 1700px;*/
+    float: right;
+}
 .piclist li{
     display: inline-block;
     vertical-align: top;
     width: 202px;
-    height:140px;
+    height:120px;
     margin-bottom: 27px;
     margin-right: 5px;
     text-align: center;
@@ -103,4 +179,29 @@ h3{
     text-overflow: ellipsis;
     counter-increment: listnum;
     margin-top: 15px;
+}
+.footer_wrapper{
+    background-color: #3598db;
+    height: 150px;
+    margin-top: 10px;
+}
+
+.footer_wrapper footer{
+    text-align: center;
+}
+.footer_wrapper li{
+    list-style:none;
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 30px;
+    border-right: solid 1px white;
+    padding-right: 18px;
+    margin-left: 18px;
+}
+.footer_wrapper li:last-child{
+    border-right: 0;
+}
+.footer_wrapper li a{
+    text-decoration: none;
+    color: white;
 }
