@@ -9,7 +9,7 @@ body{
     position: relative;
 }
 .container{
-    width: 1000px;
+    width: 1003px;
     margin: 0 auto;
     /*width: 100%;*/
 }
@@ -38,7 +38,7 @@ input[type="submit"] {
     background-color: #3598db;
     color: white;
     width: 80px;
-    height: 38px;
+    height: 39px;
     border: none;
     border-top-right-radius: 5px;
     border-bottom-right-radius: 5px;
